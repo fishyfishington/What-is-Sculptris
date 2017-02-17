@@ -33,6 +33,7 @@ a:hover, a:active {
 .content {
   grid-area: content;
   font-size: 35px;
+  text-align:center;
   position: relative;
   background-color: #fff9f9;
   color:black}
@@ -41,6 +42,7 @@ a:hover, a:active {
   grid-area: content1;
   font-size: 30px;
   position: relative;
+  text-align:center;
   background-color: #fff9f9;
 color:black}
 .content2 {
@@ -79,6 +81,7 @@ color:black}
 
 .box {
    background-color: #fff9f9;
+  text-align:center;
   color: #fff;
   border-radius: 5px;
   padding: 50px;
