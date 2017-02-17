@@ -9,3 +9,106 @@ body {background-color: #757777;}
 .pig {text-align:center}
 .fen {font-size: 30px;}
 .nim {font-size: 25px;}
+body {
+  margin: 40px;
+}
+a:link, a:visited {
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+a:hover, a:active {
+    background-color: red;
+}
+.sidebar {
+  grid-area: sidebar;
+  background-color: #93b5ed;
+}
+
+.content {
+  grid-area: content;
+  position: relative;
+  background-color: #160084;
+}
+.content1 {
+  grid-area: content1;
+  position: relative;
+  background-color: #160084;
+}
+.content2 {
+  grid-area: content2;
+  position: relative;
+  background-color: #160084;
+}
+.content3 {
+  grid-area: content3;
+  position: relative;
+  background-color: #160084;
+}
+.header {
+  grid-area: header;
+}
+
+.footer {
+  grid-area: footer;
+}
+
+.wrapper {
+        display: grid;
+    grid-gap: 10px;
+        grid-template-columns: 33% 33% 33%;
+        grid-template-areas:
+    "header  header  header"
+        "sidebar content content"
+        "sidebar content1 content1"
+        "sidebar content2 content2"
+        "sidebar content3 content3"
+        "footer  footer  footer";
+        background-color: #fff;
+        color: #444;
+    }
+
+
+.box {
+   background-color: #160084;
+  color: #fff;
+  border-radius: 5px;
+  padding: 50px;
+  font-size: 150%;
+}
+
+.header,
+.footer {
+  background-color: #42f492;
+}
+table-bordered {
+    border: 1px solid #ddd;
+}
+.table {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+table {
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+table {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border-color: #c7d5ed;
+}
+body {
+    padding-bottom: 10px;
+    color: #5a5a5a;
+}
+table { background-color: #c9c5e0;}
+body {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;}
+.vocore1table {text-align: left}
