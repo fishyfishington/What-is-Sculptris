@@ -34,22 +34,23 @@ a:hover, a:active {
   grid-area: content;
   position: relative;
   background-color: #fff9f9;
+  color:black}
 }
 .content1 {
   grid-area: content1;
   position: relative;
   background-color: #fff9f9;
-}
+color:black}
 .content2 {
   grid-area: content2;
   position: relative;
   background-color: #fff9f9;
-}
+color:black}
 .content3 {
   grid-area: content3;
   position: relative;
   background-color: #fff9f9;
-}
+color:black}
 .header {
   grid-area: header;
 }
