@@ -85,7 +85,7 @@ color:black}
 
 
 .box {
-   background-color: #5e0e01;
+   background-color: #721b13;
   text-align:center;
   color: #fff;
   border-radius: 5px;
@@ -96,7 +96,7 @@ color:black}
 
 .header,
 .footer {
-  background-color: #adb3bc;
+  background-color: #721b13;
   color:white
 }
 table-bordered {
