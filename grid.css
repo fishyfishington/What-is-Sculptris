@@ -97,6 +97,8 @@ color:black}
 .header,
 .footer {
   background-color: #721b13;
+    color:white;
+    text-align:center;
     
 }
 table-bordered {
