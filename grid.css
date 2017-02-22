@@ -9,6 +9,9 @@ body {background-color: #757777;}
 .pig {text-align:center}
 .fen {font-size: 30px;}
 .nim {font-size: 25px;}
+.content4{color: white;
+    padding: 14px 25px;
+  text-align: center;}
 body {
   margin: 40px;
 }
