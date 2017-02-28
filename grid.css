@@ -142,4 +142,19 @@ body {
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;}
 .vocore1table {text-align: left}
 
+.fat {
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  grid-gap: 10px;
+  background-color: #adb3bc;
+  color: #444;
+}
+
+.taf {
+  background-color: #5e0e01;
+  color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 150%;
+
 
