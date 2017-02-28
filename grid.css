@@ -101,6 +101,12 @@ color:black}
   text-align:center;
 }
 
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
 .header,
 .footer {
   background-color: #5e0e01;
@@ -136,8 +142,4 @@ body {
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;}
 .vocore1table {text-align: left}
 
-.row::after {
-    content: "";
-    clear: both;
-    display: table;
-}
+
